@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Belajar Tailwind CSS</title>
+  <title>learn Tailwind CSS</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/jpg" href="custom-nike-air-max-97-shoes-by-you.avif">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,700;1,700&display=swap"
+    rel="stylesheet">
   <style>
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
   </style>
 </head>
-<body class="bg-gray-200 min-h-screen">
+
+<body class="bg-gray-100 min-h-screen">
   <div class="container mx-auto p-8">
     <h1 class="text-4xl font-bold text-blue-600">
       Hello Tailwind! 👋
@@ -25,38 +29,130 @@
     <button class="mt-6 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
       Click Me
     </button>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-4 gap-5 mt-8">
-  <div class="bg-white text-gray-900 dark:text-white px-5 py-5 rounded-lg mt-8" >
-  <img src="Samba_OG_Shoes_White_B75806_01_00_standard.pnj.avif" alt="shoes" class="w-40 h-40 m-0 rounded-lg" >
-
-<h2 class="text-black font-bold mt-3 font-poppins">Samba OG Shoes White</h2>
-
-</div>
-    <div class="bg-white text-gray-900 dark:text-white px-5 py-5 rounded-lg mt-8" >
-  <img src="Samba_OG_Shoes_White_B75806_01_00_standard.pnj.avif" alt="shoes" class="w-40 h-40 m-0 rounded-lg" >
-
-<h2 class="text-black font-bold mt-4 font-poppins">Samba OG Shoes White</h2>
-
-</div>
-    <div class="bg-white text-gray-900 dark:text-white px-5 py-5 rounded-lg mt-8" >
-  <img src="Samba_OG_Shoes_White_B75806_01_00_standard.pnj.avif" alt="shoes" class="w-40 h-40 m-0 rounded-lg" >
-
-<h2 class="text-black font-bold mt-4 font-poppins">Samba OG Shoes White</h2>
-
-</div>
-    <div class="bg-white text-gray-900 dark:text-white px-5 py-5 rounded-lg mt-8" >
-  <img src="Samba_OG_Shoes_White_B75806_01_00_standard.pnj.avif" alt="shoes" class="w-40 h-40 m-0 rounded-lg" >
-
-<h2 class="text-black font-bold mt-4 font-poppins">Samba OG Shoes White</h2>
-
-</div>
-</div>
-
-
-
-
-
   </div>
+
+  <!-- Product Cards Grid -->
+  <div class="container mx-auto px-4 mt-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Card 1 -->
+      <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <!-- Image Container -->
+        <div class="relative">
+          <img src="custom-nike-air-max-97-shoes-by-you.avif" alt="Nike Air Max 97" class="w-full h-40 object-cover">
+          <!-- Badge -->
+          <span
+            class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-gray-800 text-xs font-semibold px-3 py-1 rounded-full">
+            Best Seller
+          </span>
+        </div>
+        <!-- Content -->
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-gray-900">Nike Air Max 97</h2>
+          <p class="text-gray-500 text-sm mt-1">Classic Comfort</p>
+          <p class="text-gray-600 text-sm mt-2">Step back into classic hoops style with a durable leather.</p>
+          <!-- Price and Button -->
+          <div class="flex items-center justify-between mt-4">
+            <span class="text-xl font-bold text-gray-900">$180</span>
+            <button
+              class="bg-gray-900 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-gray-200 transition-colors flex items-center gap-1">
+              Buy Now
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <!-- Image Container -->
+        <div class="relative">
+          <img src="custom-nike-dunk-high-by-you-shoes.avif" alt="Nike Dunk High" class="w-full h-40 object-cover">
+          <!-- Badge -->
+          <span
+            class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-gray-800 text-xs font-semibold px-3 py-1 rounded-full">
+            New Arrival
+          </span>
+        </div>
+        <!-- Content -->
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-gray-900">Nike Dunk High</h2>
+          <p class="text-gray-500 text-sm mt-1">Street Style Icon</p>
+          <p class="text-gray-600 text-sm mt-2">Iconic basketball heritage meets everyday street style.</p>
+          <!-- Price and Button -->
+          <div class="flex items-center justify-between mt-4">
+            <span class="text-xl font-bold text-gray-900">$150</span>
+            <button
+              class="bg-gray-900 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-gray-800 transition-colors flex items-center gap-1">
+              Buy Now
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <!-- Image Container -->
+        <div class="relative">
+          <img src="NIKE+REVOLUTION+7+WIDE.avif" alt="Nike Revolution 7" class="w-full h-40 object-cover">
+          <!-- Badge -->
+          <span
+            class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-gray-800 text-xs font-semibold px-3 py-1 rounded-full">
+            Popular
+          </span>
+        </div>
+        <!-- Content -->
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-gray-900">Nike Revolution 7</h2>
+          <p class="text-gray-500 text-sm mt-1">Running Essential</p>
+          <p class="text-gray-600 text-sm mt-2">Lightweight cushioning for your daily running routine.</p>
+          <!-- Price and Button -->
+          <div class="flex items-center justify-between mt-4">
+            <span class="text-xl font-bold text-gray-900">$85</span>
+            <button
+              class="bg-gray-900 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-gray-800 transition-colors flex items-center gap-1">
+              Buy Now
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <div class="container mx-auto px-4 mt-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <div class="aspect-video bg-black">Video 16:9</div>
+      <div class="aspect-square">Kotak 1:1</div>
+      <div class="aspect-[4/3]">Custom 4:3</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>
